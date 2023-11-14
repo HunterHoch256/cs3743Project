@@ -19,9 +19,11 @@ num_lines = int( sys.argv[2] )
 output_file = sys.argv[3]
 
 # Read input file
-with open( input_file, 'r' ) as input_file_obj:
+with open( input_file, 'r', encoding='utf-8' ) as input_file_obj:
     # the "key" here is supposed to define a function with one parameter, which is used to extract a comparison key for each element.
     # since the key just outputs a random number, the line selection will be random.
     rand_lines = heapq.nlargest( num_lines, input_file_obj, key=(lambda L: random.random()))
 
-print(rand_lines)
+# Export to output file
+with open( output_file, 'w', encoding='utf-8' ) as output_file_obj:
+    [output_file_obj.write(cur_line) for cur_line in rand_lines]
