@@ -7,6 +7,7 @@ import sys
 
 if( len(sys.argv) < 4 ):
     print( "nad.py syntax: ./nad.py <path to input file> <number of elements to select> <path to output file>" )
+    sys.exit(1)
 
 # 1. Input file path
 input_file = sys.argv[1]
