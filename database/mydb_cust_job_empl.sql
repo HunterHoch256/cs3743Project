@@ -105,7 +105,7 @@ CREATE TABLE `employee` (
   KEY `fk_EMPLOYEE_ADDRESS1_idx` (`address_id`),
   CONSTRAINT `fk_EMPLOYEE_ADDRESS1` FOREIGN KEY (`address_id`) REFERENCES `address` (`address_id`),
   CONSTRAINT `fk_EMPLOYEE_JOB1` FOREIGN KEY (`job_id`) REFERENCES `job` (`job_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=409 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -114,6 +114,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
+INSERT INTO `employee` VALUES (385,'Smith','Lucas','C',896,5373620,'lucas.smith@gmail.com','123-45-6789','1985-05-15','2010-10-10',NULL,1,1723),(386,'Townsend','Isabelle','N',902,7890412,'isabelle.townsend@yahoo.com','231-56-7890','1990-03-22','2015-06-05',NULL,16,1356),(387,'Baker','Ethan','R',789,4817486,'ethan.baker@hotmail.com','345-67-8921','1980-11-10','2008-09-18',NULL,9,621),(388,'Parker','Olivia','W',654,4746185,'olivia.parker@aol.com','451-78-9012','1992-07-07','2016-02-14',NULL,7,1898),(389,'Castillo','Ayden','L',203,7017562,'ayden.castillo@outlook.com','568-89-0123','1988-12-30','2012-08-03',NULL,101,984),(390,'Hopper','Dante','S',429,5284756,'dante.hopper@icloud.com','678-90-1235','1987-04-02','2011-03-20',NULL,100,1423),(391,'Delgado','Mark','P',210,5627195,'mark.delgado@outlook.com','789-01-2345','1995-09-15','2019-11-30',NULL,100,356),(392,'Jones','Mia','H',520,4635185,'mia.jones@yandex.com','892-12-3456','1989-01-08','2012-05-12','2021-07-15',99,1287),(393,'Tilbury','Sophie','M',792,9686710,'sophie.tilbury@mail.com','901-23-4567','1983-08-27','2007-06-15',NULL,99,1789),(394,'Manson','Noah','A',356,8997215,'noah.manson@inbox.com','123-45-6780','1990-02-14','2012-10-20',NULL,97,731),(395,'Nguyen','Ava','O',843,5736195,'ava.nguyen@gmx.com','345-67-8902','1986-06-18','2010-07-09','2022-03-05',93,1602),(396,'Lambert','Brylee','K',158,4785801,'brylee.lamber@zoho.com','567-89-0124','1991-03-03','2015-09-22',NULL,93,1098),(397,'Quinn','Jackson','M',658,8673625,'jackson.quinn@icloud.com','234-56-7891','1984-11-25','2011-04-14',NULL,94,456),(398,'Chandler','Emma','E',593,872642,'emma.chandler@fastmail.com','456-78-9012','1993-10-19','2018-07-01',NULL,94,843),(399,'Parks','William','O',422,5723547,'william.parks@yopmail.com','678-91-1234','1997-12-12','2020-06-30',NULL,94,1976),(400,'Bishop','Amy','P',694,1275659,'amy.bishop@rediffmail.com','890-12-3456','1982-08-08','2005-05-16',NULL,94,567),(401,'Graham','Harper','I',298,9321755,'harper.graham@gmail.com','123-45-6781','1989-01-31','2010-09-02',NULL,90,1205),(402,'Keller','Lee','B',198,927365,'lee.keller@rocketmail.com','345-67-8901','1986-04-17','2012-03-07','2023-01-15',90,865),(403,'Larson','Chloe','S',769,1846258,'chloe.larson@outlook.com','234-56-7890','1994-07-03','2016-10-28',NULL,51,1492),(404,'Simmons','Elijah','T',459,2856180,'elijah.simmons@aol.com','567-89-0123','1981-03-29','2007-05-12',NULL,61,278),(405,'Reynolds','Grace','D',387,8563710,'grace.reynolds@gmail.com','789-01-2344','1996-02-20','2018-08-14',NULL,61,1943),(406,'Carter','Henry','V',847,6578322,'henry.carter@yahoo.com','891-12-3456','1987-09-04','2013-07-07',NULL,61,1034),(407,'Mitchell','Charlotte','W',964,6108473,'charlotte.mitchell@gmail.com','678-90-1234','1982-10-23','2006-05-21','2021-04-02',61,632),(408,'Wong','Jonah','L',165,9673262,'jonah.wong@gmail.com','123-45-6782','1993-06-12','2017-09-10',NULL,61,1589);
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -429,4 +430,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-21 15:51:44
+-- Dump completed on 2023-11-21 16:08:24
