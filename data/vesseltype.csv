@@ -1,1 +1,37 @@
 vtype_name,vtype_weight_limit
+001, 'Cargo Ship', 20000
+002, 'Tanker Ship', 18000
+003, 'Container Ship', 21000
+004, 'Oil Tanker', 15000
+005, 'Container Barge', 21000
+006, 'Research Vessel', 100
+007, 'Car Carrier', 1000
+008, 'Semi-Truck', 1
+009, 'Tanker Truck', 1
+010, 'Cargo Plane', 2
+011, 'Cargo Helicopter', 1
+012, 'Cargo Train', 200
+013, 'Container Train', 400
+014, 'Freighter Ship', 14000
+015, 'Bulk Carrier', 15000
+016, 'Liquid Gas Carrier', 300
+017, 'Petroleum Tanker', 400
+018, 'Flatbed Barge', 10000
+019, 'Oceanographic Research Vessel', 50
+020, 'Vehicle Transporter', 8000
+021, 'Heavy-Duty Trailer', 2
+022, 'Chemical Tanker', 600
+023, 'Intermodal Container Ship', 21000
+024, 'Survey Ship', 12000
+025, 'Ro-Ro Ship', 4000
+026, 'Refrigerated Container Ship', 14000
+027, 'Multi-Purpose Cargo Ship', 18000
+028, 'Freight Airplane', 5
+029, 'Airlift Helicopter', 1
+030, 'Container Freight Train', 400
+031, 'High-Speed Cargo Train', 200
+032, 'Logistics Plane', 1
+033, 'Express Delivery Helicopter', 1
+034, 'Bulk Freight Train', 500
+035, 'LNG Carrier', 100
+036, 'Specialized Freight Aircraft', 25

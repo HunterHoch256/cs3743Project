@@ -1,0 +1,36 @@
+001, 'Cargo Ship',432000000
+002, 'Tanker Ship',388800000
+003, 'Container Ship',453600000
+004, 'Oil Tanker',324000000
+005, 'Container Barge',453600000
+006, 'Research Vessel',2160000
+007, 'Car Carrier',21600000
+008, 'Semi-Truck',21600
+009, 'Tanker Truck',21600
+010, 'Cargo Plane',43200
+011, 'Cargo Helicopter',21600
+012, 'Cargo Train',4320000
+013, 'Container Train',8640000
+014, 'Freighter Ship',302400000
+015, 'Bulk Carrier',324000000
+016, 'Liquid Gas Carrier',6480000
+017, 'Petroleum Tanker',8640000
+018, 'Flatbed Barge',216000000
+019, 'Oceanographic Research Vessel',1080000
+020, 'Vehicle Transporter',172800000
+021, 'Heavy-Duty Trailer',43200
+022, 'Chemical Tanker',12960000
+023, 'Intermodal Container Ship',453600000
+024, 'Survey Ship',259200000
+025, 'Ro-Ro Ship',86400000
+026, 'Refrigerated Container Ship',302400000
+027, 'Multi-Purpose Cargo Ship',388800000
+028, 'Freight Airplane',108000
+029, 'Airlift Helicopter',21600
+030, 'Container Freight Train',8640000
+031, 'High-Speed Cargo Train',4320000
+032, 'Logistics Plane',21600
+033, 'Express Delivery Helicopter',21600
+034, 'Bulk Freight Train',10800000
+035, 'LNG Carrier',2160000
+036, 'Specialized Freight Aircraft',540000
